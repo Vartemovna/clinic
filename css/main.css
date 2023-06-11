@@ -1,0 +1,163 @@
+body {
+  background-color: white;
+  width: 1140px;
+  color: #364844;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, button, ul {
+  font-size: inherit;
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+input, button {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+input:focus, button:focus {
+  outline: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container__block {
+  display: flex;
+}
+.container__block .logo img {
+  margin-top: 20.61px;
+  margin-bottom: 18.48px;
+  margin-right: 20.55px;
+}
+.container__block .addres {
+  display: flex;
+}
+.container__block .addres img {
+  margin-top: 15.62px;
+  margin-bottom: 32.63px;
+  margin-right: 6.65px;
+}
+
+.addres__block {
+  font-size: 14px;
+}
+.addres__block p:first-child {
+  padding-top: 15px;
+  padding-bottom: 0;
+  color: #364844;
+}
+.addres__block p:last-child {
+  padding-top: 0;
+  padding-bottom: 14px;
+  color: #868686;
+}
+
+.container__block1 {
+  display: flex;
+}
+.container__block1 img {
+  width: 28px;
+  height: 28px;
+  margin: 20px 9px 19px 0;
+}
+.container__block1 div {
+  margin: 22px 35px 21px 0;
+  width: 138px;
+  height: 24px;
+}
+.container__block1 div a {
+  text-decoration: none;
+  color: #364844;
+}
+.container__block1 button {
+  background-color: #0DBC91;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50px;
+  height: 43px;
+  line-height: 43px;
+  font-weight: 400;
+  margin: 12px 0;
+}
+
+.menu {
+  background-color: #1FA181;
+  align-items: center;
+}
+.menu ul {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 9px;
+  color: white;
+  gap: 30px;
+}
+
+header {
+  display: flex;
+}
+header h1 {
+  font-size: 36px;
+  margin-top: 144px;
+  margin-bottom: 14px;
+  margin-right: 164px;
+}
+
+section {
+  display: flex;
+  background-color: #E2F0EF;
+}
+section h1 {
+  margin-top: 53.14px;
+  font-size: 38px;
+  margin-bottom: 1.86px;
+}
+section h2 {
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+section ul {
+  margin-bottom: 34px;
+}
+section .price {
+  display: flex;
+  margin-bottom: 26px;
+}
+
+footer {
+  background-color: #08664F;
+  display: flex;
+}
+footer .footer-logo {
+  margin-right: 237.96px;
+}
+footer ul {
+  display: flex;
+  color: white;
+  margin-right: 194px;
+  gap: 30px;
+  padding-top: 59px;
+  padding-bottom: 61px;
+}
+footer div:last-child {
+  display: flex;
+  gap: 15px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,192 @@
+
+body {
+  background-color: white;
+  // font-family: 'Ubuntu', sans-serif;
+  width: 1140px;
+  color: #364844;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+h1, h2, h3, h4, h5, h6, p, a, button, ul {
+  font-size: inherit;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+input, button {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+input:focus, button:focus {
+  outline: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container__block {
+  display: flex;
+
+  .logo {
+  
+    img {
+      margin-top: 20.61px;
+      margin-bottom: 18.48px;
+      margin-right: 20.55px;
+    }
+  }
+  .addres {
+    display: flex;
+
+    img {
+      margin-top: 15.62px;
+      margin-bottom: 32.63px;
+      margin-right: 6.65px;
+    }
+  }
+}
+
+.addres__block {
+
+  font-size: 14px;
+  
+  p:first-child {
+    padding-top: 15px;
+    padding-bottom: 0;
+    color: #364844;
+
+  }
+
+  p:last-child {
+    padding-top: 0;
+    padding-bottom: 14px;
+    color: #868686;
+
+  }
+}
+
+.container__block1 {
+  display: flex;
+
+  img {
+    width: 28px;
+    height: 28px;
+    margin: 20px 9px 19px 0; 
+  }
+
+  div {
+    margin: 22px 35px 21px 0;
+    width: 138px;
+    height: 24px;   
+
+    a {
+      text-decoration: none;
+      color: #364844;
+  }
+}
+
+    button {
+      background-color: #0DBC91; 
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      border-radius: 50px;
+      height: 43px;
+      line-height: 43px;
+      font-weight: 400;
+      margin: 12px 0;
+    }
+}
+
+
+
+.menu {
+  background-color: #1FA181;
+  align-items: center;
+
+ul {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 9px;
+  color: white;
+  gap: 30px;
+}
+}
+
+header {
+  display: flex;
+
+  h1 {
+    font-size: 36px;
+    margin-top: 144px;
+    margin-bottom: 14px;
+    margin-right: 164px;
+  }
+}
+
+section {
+  display: flex;
+  background-color: #E2F0EF;
+
+  h1 {
+    margin-top: 53.14px;
+    font-size: 38px;
+    margin-bottom: 1.86px;
+  }
+
+  h2 {
+    font-size: 22px; 
+    margin-bottom: 16px;
+  }
+
+  ul {
+    margin-bottom: 34px;
+  }
+
+  .price {
+    display: flex;
+    margin-bottom: 26px;
+  }
+}
+
+footer {
+  background-color:  #08664F;
+  display: flex;
+
+  .footer-logo {
+    margin-right: 237.96px;
+  }
+
+  ul {
+    display: flex;
+    color: white;
+    margin-right: 194px;
+    gap: 30px;
+    padding-top: 59px;
+    padding-bottom: 61px;
+  }
+
+  div:last-child {
+    display: flex;
+    gap: 15px;
+  }
+}
+
